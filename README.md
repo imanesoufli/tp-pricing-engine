@@ -32,3 +32,15 @@ For more information, please refer to https://docs.gradle.org/8.7/userguide/cust
 
 BUILD SUCCESSFUL in 33s
 1 actionable task: 1 executed
+```
+
+## test:
+
+```powershell
+C:\Users\ELITE COMPUTER\tp-pricing-engine\plugin\src\main\java\org\example\DiscountService.java:25: error: unmappable character (0x90) for encoding windows-1252
+                System.out.println("Invalid discount code"); // Ô¡? validation
+                                                                  ^
+
+BUILD SUCCESSFUL in 14s
+6 actionable tasks: 5 executed, 1 up-to-date
+```

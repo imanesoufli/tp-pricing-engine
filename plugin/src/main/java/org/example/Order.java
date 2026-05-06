@@ -1,3 +1,5 @@
+package org.example;
+
 public class Order {
     double[] prices;
     int[] qty;

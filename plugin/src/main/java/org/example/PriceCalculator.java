@@ -1,3 +1,5 @@
+package org.example;
+
 public class PriceCalculator {
 
     public double calculateSubtotal(double[] prices, int[] qty) {
